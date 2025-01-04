@@ -198,6 +198,20 @@ main {
   text-overflow: ellipsis;
 }
 
+.projects .card {
+  border-left: 0.5rem solid #8b5cf6;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: right;
+  gap: 1rem;
+}
+
+.card-icons svg {
+  width: 1.8rem
+}
+
 
 .trending .card {
   display: flex;
